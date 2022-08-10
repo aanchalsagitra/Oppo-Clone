@@ -1,0 +1,418 @@
+body {
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+/* Country Selection Section  */
+
+#selection {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  height: 65px;
+  width: 100%;
+  line-height: 60px;
+  text-align: center;
+}
+
+#country_selection {
+  color: white;
+}
+
+.stay {
+  margin-left: 25px;
+  margin-right: 10px;
+}
+
+.stay a {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 1px solid white;
+  margin-right: 13px;
+  cursor: pointer;
+}
+
+/* Main Navigation Bar  */
+
+#main_navigation {
+  content: "";
+  position: absolute;
+  top: 67px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  height: 73px;
+  width: 100%;
+}
+
+#nav_first_division {
+  display: flex;
+  /* justify-content: center; */
+  padding: 16px;
+}
+
+#logo_box {
+  padding-top: 13px;
+}
+
+#logo_box img {
+  height: 28px;
+  width: 114px;
+  margin-left: 106px;
+}
+
+#nav_items {
+  margin-left: 54px;
+  display: flex;
+  flex-direction: column;
+}
+
+#nav_items ul {
+  display: flex;
+  list-style: none;
+}
+
+#nav_items ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 21px;
+  font-weight: bold;
+}
+
+#nav_items ul li a:hover {
+  border-bottom: 3px solid #2ec84e;
+  padding-bottom: 15px;
+}
+
+#icon_box {
+  padding: 14px;
+  margin: 5px;
+}
+
+#icon_box a i {
+  color: black;
+  margin: 7px;
+  margin-top: 0px;
+  margin-left: 12px;
+}
+
+/* Header Section */
+
+#header::before {
+  content: "";
+  position: absolute;
+  background: url("oppo-inno-day-1.webp") no-repeat center center/cover;
+
+  height: 667px;
+  width: 100%;
+  z-index: -1;
+  opacity: 10;
+}
+#header {
+  display: flex;
+  flex-direction: column;
+  height: 785px;
+  justify-content: center;
+}
+
+#content {
+  margin-bottom: 306px;
+  text-align: center;
+}
+
+#headingandpara {
+  color: black;
+  font-weight: bold;
+}
+
+#learn_more1 a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+/* Reward Multiplyer Section  */
+
+#Reward_multiplyer_section {
+  /* height: 200px; */
+  width: 100%;
+  background-color: #fff;
+}
+
+#Reward_multiplyer_division {
+  display: flex;
+  flex-wrap: wrap;
+  height: 164px;
+  margin: 30px;
+  /* padding: 12px; */
+  background-color: rgb(247, 244, 227);
+}
+
+#Reward_multiplyer_division div {
+  padding: 23px;
+  margin-left: 100px;
+}
+
+#Reward_multiplyer_image img {
+  height: 140px;
+  width: 314px;
+}
+
+#Reward_multiplyer_content p {
+  text-align: center;
+  color: grey;
+}
+
+#Reward_multiplyer_button button {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  margin: 13px;
+}
+
+#Reward_multiplyer_button button:hover {
+  background-color: grey;
+}
+
+/* SMartphone Section  */
+
+#smartphone_section {
+  background-color: #f7f7f7;
+  /* height: 500px; */
+}
+
+#smartphone_section_division1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#smartphone_section_division1 div {
+  padding: 8px;
+  line-height: 120%;
+}
+
+#smartphone_section_division1 div h1 {
+  font-size: 32px;
+}
+
+.view {
+  margin-top: 30px;
+}
+
+#smartphone_section_division1 div a {
+  text-decoration: none;
+  color: grey;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+#smartphone_section_division2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 23px;
+}
+
+.subdivision {
+  margin: 9px;
+}
+
+.subdivision img {
+  height: 504px;
+  width: 621px;
+}
+
+.subdivision img:hover {
+  padding: 10px;
+  transition: all 0.3s;
+  transform: scale(0.9);
+}
+.subdivision button {
+  background-color: black;
+  color: white;
+  padding: 16px;
+}
+.subdivision button:hover {
+  background-color: grey;
+}
+
+.subdivision span {
+  margin-left: 27px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+}
+
+.subdivision span:hover {
+  color: grey;
+  border-bottom: 1px solid black;
+}
+
+/* IOT Device Section  */
+#IOT_section {
+  background-color: #f7f7f7;
+  margin-top: 9px;
+  /* height: 500px; */
+}
+
+#IOT_section_division1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#IOT_section_division1 div {
+  padding: 8px;
+  line-height: 120%;
+}
+
+#IOT_section_division1 div h1 {
+  font-size: 32px;
+}
+
+.view {
+  margin-top: 30px;
+}
+
+#IOT_section_division1 div a {
+  text-decoration: none;
+  color: grey;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+#IOT_section_division2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 23px;
+}
+
+/* Explore Section  */
+/* #explore_section { */
+/* height: 500px; */
+/* color: beige; */
+/* } */
+
+#explore_section {
+  background-color: rgb(247, 244, 227);
+  height: 600px;
+}
+#explore_section h2 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 80px;
+}
+
+#explore_division {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 24px;
+  justify-content: space-around;
+}
+
+/* .explore_subdivision {
+  border: 1px solid black;
+} */
+
+.explore_subdivision img {
+  height: 245px;
+  width: 100%;
+  transition: all 0.5s;
+  transform: scale(1.1);
+}
+
+.explore_subdivision img:hover {
+  transition: all 0.1s;
+  transform: scale(0.95);
+}
+
+.explore_subdivision a {
+  /* margin-left: 27px; */
+  color: black;
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+.explore_subdivision a:hover {
+  color: grey;
+  border-bottom: 1px solid black;
+}
+
+/* Footer Section  */
+
+#footer_main_division {
+  display: block;
+  background-color: black;
+  padding: 47px;
+}
+
+#footer_box1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer_box1_subdivision {
+  padding: 3px;
+  margin: 9px;
+}
+
+.footer_box1_subdivision h4 {
+  color: white;
+  margin-left: 38px;
+}
+.footer_box1_subdivision ul {
+  text-decoration: none;
+}
+
+.footer_box1_subdivision ul li {
+  list-style: none;
+}
+
+.footer_box1_subdivision ul li a {
+  color: grey;
+  text-decoration: none;
+}
+
+#footer_box2 {
+  padding: 9px;
+  border-bottom: 1px solid grey;
+  padding-top: 5px;
+}
+
+#footer_box2 span a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+#footer_box2 span a:hover {
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+
+#footer_box3 {
+  padding: 4px;
+}
+
+#footer_box3 p {
+  color: white;
+}
+#icondiv a i {
+  color: grey;
+}
+
+#footer_box4 {
+  padding: 4px;
+  margin-top: 14px;
+}
+
+#footer_box4 div p {
+  color: white;
+}
+
+#footer_box4 div span {
+  color: white;
+}
